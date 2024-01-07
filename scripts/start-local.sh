@@ -18,4 +18,4 @@ fi
 docker build --no-cache -t $IMAGE_NAME .
 
 # run logstash container
-docker run --rm --name $CONTAINER_NAME $IMAGE_NAME
+docker run --rm --env-file .env --name $CONTAINER_NAME $IMAGE_NAME
