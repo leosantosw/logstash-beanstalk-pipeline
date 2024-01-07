@@ -1,4 +1,4 @@
-docker pull docker.elastic.co/logstash/logstash-oss:8.11.3
+FROM docker.elastic.co/logstash/logstash-oss:8.11.3
 
 RUN rm -f /usr/share/logstash/pipeline/logstash.conf
 
