@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "logstash-img:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 9600
+    }
+  ]
+}
