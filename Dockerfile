@@ -4,5 +4,6 @@ RUN rm -f /usr/share/logstash/pipeline/logstash.conf
 
 COPY logstash/pipeline/ /usr/share/logstash/pipeline/
 COPY logstash/config/ /usr/share/logstash/config/
+COPY logstash/drivers/ /usr/share/logstash/drivers/
 
 EXPOSE 9600
